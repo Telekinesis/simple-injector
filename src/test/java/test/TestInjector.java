@@ -3,10 +3,14 @@ package test;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.junit.Assert;
+import junit.framework.Assert;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.telekinesis.simpleinjector.DependencyInjector;
+
+import test.TestClass;
+import test.TestComponent;
 
 public class TestInjector {
 	private Map<String, String> properties = new HashMap<String, String>();

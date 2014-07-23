@@ -4,6 +4,8 @@ import org.telekinesis.simpleinjector.annotation.ClassInject;
 import org.telekinesis.simpleinjector.annotation.InjectConstructor;
 import org.telekinesis.simpleinjector.annotation.IntInject;
 
+import test.TestComponent;
+
 public class TestClass {
 	private int value;
 	private TestComponent component;
